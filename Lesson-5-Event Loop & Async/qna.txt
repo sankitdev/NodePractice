@@ -1,0 +1,22 @@
+What is the purpose of the Event Loop in Node.js?
+Ans- Event Loop monitors the microtasks queue and callback queue. It checks the callstack and pushes the program to the callstack as soon as one finised. So Event loop is a mediator who is resposible for all task.
+
+Explain the difference between microtasks and macrotasks.
+You didn't explained it good.
+
+What is the role of the Call Stack in handling asynchronous operations?
+CallStack is a place where every operations are handled. Well you didn't explained it well.
+
+Practical Question:
+
+console.log('Start');
+
+setTimeout(() => {
+  console.log('Inside setTimeout');
+}, 0);
+
+console.log('End');
+
+output:- Start
+End
+Inside setTimeout
